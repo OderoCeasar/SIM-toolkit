@@ -1,6 +1,6 @@
 # SIM TOOLKIT(M-PESA) logic
 
-print("**Safaricom**")
+print("**Safaricom SIM toolkit**")
 print("")
 
 print("# Safaricom+")

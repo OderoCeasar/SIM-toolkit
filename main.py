@@ -7,7 +7,7 @@ print("# Safaricom+")
 print("# M-PESA")
 
 phoneNo = "0703382631"
-name = "George Odero"
+name = "George Ceasar"
 balance = 10000
 pin = 1234
 
@@ -28,7 +28,7 @@ elif choice == "M-PESA":
     # Sending money
     if choices == "Send Money":
         phoneNo = input("Enter phone no(07***): ")
-        if len(phoneNo) == 10 and phoneNo.startswith("07") and name == "George Odero":
+        if len(phoneNo) == 10 and phoneNo.startswith("07") and name == "George Ceasar":
             amount = float(input("Enter amount: "))
             balance = balance - amount
             print(f"Sending {amount} to {name}")
